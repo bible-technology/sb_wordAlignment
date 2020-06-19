@@ -8,9 +8,10 @@
       "softwareName": "Autographa-Aligner",
       "softwareVersion": "0.1.0",
       "userName": "Anil John"
-
     },
-    "comments": ["Alignments of NT books."],
+    "comments": [
+      "Alignments of NT books."
+    ],
     "defaultLanguage": "en"
   },
   "idServers": {
@@ -18,9 +19,9 @@
       "id": "http://bridgeconn.com",
       "name": "Bridge Connectivity Solutions"
     },
-     "dcs": {
-       "id": "https://git.door43.org",
-       "name": "Door43 Content Repository"
+    "dcs": {
+      "id": "https://git.door43.org",
+      "name": "Door43 Content Repository"
     }
   },
   "identification": {
@@ -154,7 +155,13 @@
       "name": {
         "en": "Bridge Connectivity Solutions"
       },
-      "roles": ["rightsHolder", "content", "publication", "management", "qa"],
+      "roles": [
+        "rightsHolder",
+        "content",
+        "publication",
+        "management",
+        "qa"
+      ],
       "abbr": {
         "en": "BCS"
       }
@@ -165,7 +172,10 @@
       "name": {
         "en": "unfoldingWord"
       },
-      "roles": ["finance", "qa"],
+      "roles": [
+        "finance",
+        "qa"
+      ],
       "abbr": {
         "en": "uW"
       }
@@ -178,194 +188,194 @@
     }
   },
   "ingredients": {
-    "hin-4_1CO.json": {
+    "1CO.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "1b5caea10af36a849a4c83b06dbf5057"
       },
-      "size": 563
+      "size": 748680
     },
-    "hin-4_1JN.json": {
+    "1JN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "7812be7821202f0924b99a96534a8168"
       },
-      "size": 132
+      "size": 212375
     },
-    "hin-4_1PE.json": {
+    "1PE.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "8f797bd45dc1615d9783776096b937d3"
       },
-      "size": 123
+      "size": 204879
     },
-    "hin-4_1TH.json": {
+    "1TH.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "5bd58028de8f27d00743755f6d5d6a4c"
       },
-      "size": 234
+      "size": 167451
     },
-    "hin-4_1TI.json": {
+    "1TI.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "eb63c3a1bd36b8b2db159e32d2e6e715"
       },
-      "size": 113
+      "size": 194500
     },
-    "hin-4_2CO.json": {
+    "2CO.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "339bd2ad082555b57b76d73c6878afb7"
       },
-      "size": 538
+      "size": 503497
     },
-    "hin-4_2JN.json": {
+    "2JN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "bab44353586e7a2e47fcd2f5a473d1c0"
       },
-      "size": 233
+      "size": 26473
     },
-    "hin-4_2PE.json": {
+    "2PE.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "dc9aeff82c268014d8f9a76c4b480e1c"
       },
-      "size": 143
+      "size": 130100
     },
-    "hin-4_2TH.json": {
+    "2TH.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "d6817145b4d7d3bb122602fc044bf51d"
       },
-      "size": 377
+      "size": 89792
     },
-    "hin-4_2TI.json": {
+    "2TI.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "2f7d249555b512268b628c00d63c9fc4"
       },
-      "size": 839
+      "size": 143939
     },
-    "hin-4_3JN.json": {
+    "3JN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "4dcfbb49bd87b93ca1eb8ad453c7a622"
       },
-      "size": 243
+      "size": 23547
     },
-    "hin-4_ACT.json": {
+    "ACT.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "30790311eb0affe5b92b33254020f4eb"
       },
-      "size": 957
+      "size": 1942272
     },
-    "hin-4_COL.json": {
+    "COL.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "4b7c602f1261ac40d40a9fc46d72bc1c"
       },
-      "size": 343
+      "size": 179623
     },
-    "hin-4_EPH.json": {
+    "EPH.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "12823bb8db4650d2f23e5827e84d968f"
       },
-      "size": 453
+      "size": 266186
     },
-    "hin-4_GAL.json": {
+    "GAL.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "8a01e5c7a04876b414c971cebc6829fa"
       },
-      "size": 347
+      "size": 262862
     },
-    "hin-4_HEB.json": {
+    "HEB.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "7c2a9f493a4afaec94dc0e893eed74b4"
       },
-      "size": 787
+      "size": 565444
     },
-    "hin-4_JAS.json": {
+    "JAS.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "463c6264ba9d10ea4cafa63ec1d8d8ca"
       },
-      "size": 778
+      "size": 199304
     },
-    "hin-4_JHN.json": {
+    "JHN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "5927e229c4670b57a5cf2f0dc0fadc51"
       },
-      "size": 548
+      "size": 1563162
     },
-    "hin-4_JUD.json": {
+    "JUD.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "e14ba34930da5177b66a9cdb609dad3c"
       },
-      "size": 433
+      "size": 56025
     },
-    "hin-4_LUK.json": {
+    "LUK.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "8a0e88b573532c70e922518c577eebe9"
       },
-      "size": 987
+      "size": 1812654
     },
-    "hin-4_MAT.json": {
+    "MAT.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "001c75ef3e26c5160101e3118aaa50bb"
       },
-      "size": 1039
+      "size": 1807247
     },
-    "hin-4_MRK.json": {
+    "MRK.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "4c532e4662708e245ba00c5686b157e1"
       },
-      "size": 487
+      "size": 1164260
     },
-    "hin-4_PHM.json": {
+    "PHM.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "019c882f59b055056441140f184e1f56"
       },
-      "size": 234
+      "size": 38266
     },
-    "hin-4_PHP.json": {
+    "PHP.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "8f5d92eabd865518b25d77907f8304d2"
       },
-      "size": 354
+      "size": 189642
     },
-    "hin-4_REV.json": {
+    "REV.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "659bafcf688eed6d74b8c32a4c230be2"
       },
-      "size": 544
+      "size": 939650
     },
-    "hin-4_ROM.json": {
+    "ROM.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "012acc36529ed2019694a07fa81af29a"
       },
-      "size": 543
+      "size": 771826
     },
-    "hin-4_TIT.json": {
+    "TIT.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "0123456789abcdef0123456789abcdef"
+        "md5": "87f00a47ec4f19d65095e1ad245c8273"
       },
-      "size": 127
+      "size": 83984
     }
   }
 }
