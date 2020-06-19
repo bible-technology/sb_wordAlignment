@@ -1,7 +1,7 @@
 {
   "meta": {
     "variant": "source",
-    "version": "0.2.0",
+    "version": "0.2.0-beta",
     "dateCreated": "2020-03-31T09:04:10.3+02:00",
     "normalization": "NFC",
     "generator": {
@@ -17,11 +17,15 @@
   "idServers": {
     "bcs": {
       "id": "http://bridgeconn.com",
-      "name": "Bridge Connectivity Solutions"
+      "name": {
+	"en": "Bridge Connectivity Solutions"
+      }
     },
     "dcs": {
       "id": "https://git.door43.org",
-      "name": "Door43 Content Repository"
+      "name": {
+	"en": "Door43 Content Repository"
+      }
     }
   },
   "identification": {
@@ -34,7 +38,7 @@
     },
     "systemId": {
       "bcs": {
-        "id": "bcs::hin.irv-ugnt",
+        "id": "bcs::autographa-aligner",
         "revision": "1"
       }
     }
@@ -54,7 +58,7 @@
           "name": "western"
         }
       },
-      "bookScope": {
+      "currentScope": {
         "MAT": [],
         "MRK": [],
         "LUK": [],
@@ -150,7 +154,7 @@
   ],
   "agencies": [
     {
-      "id": "bcs",
+      "id": "bcs::autographa-aligner",
       "url": "https://bridgeconn.com",
       "name": {
         "en": "Bridge Connectivity Solutions"
