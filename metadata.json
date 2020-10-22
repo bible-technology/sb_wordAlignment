@@ -1,44 +1,31 @@
 {
   "meta": {
-    "variant": "source",
-    "version": "0.2.0-beta",
+    "category": "source",
+    "version": "0.3.0-alpha",
     "dateCreated": "2020-03-31T09:04:10.3+02:00",
-    "normalization": "NFC",
     "generator": {
-      "softwareName": "Autographa-Aligner",
-      "softwareVersion": "0.1.0",
-      "userName": "Anil John"
+      "softwareName": "Autographa-Aligner 0.1.0",
+      "softwareVersion": "0.0.0"
     },
-    "comments": [
-      "Alignments of NT books."
-    ],
+    "comments": ["Add alignments of all NT books."],
     "defaultLanguage": "en"
   },
-  "idServers": {
+  "idAuthorities": {
     "bcs": {
-      "id": "http://bridgeconn.com",
-      "name": {
-	"en": "Bridge Connectivity Solutions"
-      }
-    },
-    "dcs": {
-      "id": "https://git.door43.org",
-      "name": {
-	"en": "Door43 Content Repository"
-      }
+      "id": "http://registry.bridgeconn.com"
     }
   },
   "identification": {
-    "idServer": "bcs",
+    "idAuthority": "bcs",
     "name": {
-      "en": "Hindi IRV - UGNT Alignments"
+      "en": "Hindi IRV - UGNT Interlinear"
     },
     "description": {
-      "en": "Word level alignment of Hindi IRV with UGNT Text"
+      "en": "Word level alignment of Hindi IRV v.4 with UGNT Text"
     },
     "systemId": {
       "bcs": {
-        "id": "bcs::autographa-aligner",
+        "id": "bcs::hin.irv-ugnt",
         "revision": "1"
       }
     }
@@ -50,46 +37,9 @@
   "type": {
     "flavorType": {
       "name": "parascriptural",
-      "canonType": [
-        "nt"
-      ],
-      "canonSpec": {
-        "nt": {
-          "name": "western"
-        }
-      },
-      "currentScope": {
-        "MAT": [],
-        "MRK": [],
-        "LUK": [],
-        "JHN": [],
-        "ACT": [],
-        "ROM": [],
-        "1CO": [],
-        "2CO": [],
-        "GAL": [],
-        "EPH": [],
-        "PHP": [],
-        "COL": [],
-        "1TH": [],
-        "2TH": [],
-        "1TI": [],
-        "2TI": [],
-        "TIT": [],
-        "PHM": [],
-        "HEB": [],
-        "JAS": [],
-        "1PE": [],
-        "2PE": [],
-        "1JN": [],
-        "2JN": [],
-        "3JN": [],
-        "JUD": [],
-        "REV": []
-      },
       "flavor": {
         "name": "wordAlignment",
-        "autoAlignerVersion": "0.1.0",
+        "autoAlignerVersion": "0.8",
         "stopWords": true,
         "stemmer": {
           "name": "bcs-hindi",
@@ -97,7 +47,7 @@
           "affixes": true
         },
         "manualAlignment": {
-          "user": "Anil John",
+          "user": "anil.john",
           "references": [
             {
               "start": 25535,
@@ -113,33 +63,25 @@
   },
   "relationships": [
     {
-      "id": "dcs::Door43-Catalog:hi_irv",
+      "id": "dbl::987654321fedcba",
       "flavor": "textTranslation",
       "relationType": "source",
-      "revision": "d83dddfdcd127879e72094f637b9385ef12e040d",
-      "variant": "Hindi-IRV"
+      "revision": "12",
+      "variant": "Hindi-IRV-v4"
     },
     {
-      "id": "dcs::Door43-Catalog:el-x-koine_ugnt",
+      "id": "dbl::0123456789abcdef",
       "flavor": "textTranslation",
       "relationType": "target",
-      "revision": "d1316c7d1ff879b36d1dbfcb5135c4546b9f9e41",
-      "variant": "Greek-UGNT"
+      "revision": "23"
     }
   ],
   "languages": [
     {
-      "tag": "el",
+      "tag": "en",
       "name": {
-        "en": "Greek (grc)",
-        "el": "Ἑλληνική"
-      }
-    },
-    {
-      "tag": "hi",
-      "name": {
-        "en": "Hindi (hin)",
-        "hi": "हिंदी"
+        "en": "English",
+        "hi": "अंग्रेज़ी"
       }
     }
   ],
@@ -154,232 +96,206 @@
   ],
   "agencies": [
     {
-      "id": "bcs::autographa-aligner",
+      "id": "bcs::7874",
       "url": "https://bridgeconn.com",
       "name": {
         "en": "Bridge Connectivity Solutions"
       },
-      "roles": [
-        "rightsHolder",
-        "content",
-        "publication",
-        "management",
-        "qa"
-      ],
+      "roles": ["rightsHolder", "content", "publication", "management", "qa"],
       "abbr": {
         "en": "BCS"
       }
-    },
-    {
-      "id": "dcs::unfoldingword",
-      "url": "https://www.unfoldingword.org",
-      "name": {
-        "en": "unfoldingWord"
-      },
-      "roles": [
-        "finance",
-        "qa"
-      ],
-      "abbr": {
-        "en": "uW"
-      }
     }
   ],
-  "copyright": {
-    "publicDomain": true,
-    "shortStatementPlain": {
-      "en": "Copyright © 2020 by Bridge Connectivity Solutions, CC BY-SA 4.0"
-    }
-  },
   "ingredients": {
-    "1CO.json": {
+    "hin-4_1CO.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "1b5caea10af36a849a4c83b06dbf5057"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 748680
+      "size": 563
     },
-    "1JN.json": {
+    "hin-4_1JN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "7812be7821202f0924b99a96534a8168"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 212375
+      "size": 132
     },
-    "1PE.json": {
+    "hin-4_1PE.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "8f797bd45dc1615d9783776096b937d3"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 204879
+      "size": 123
     },
-    "1TH.json": {
+    "hin-4_1TH.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "5bd58028de8f27d00743755f6d5d6a4c"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 167451
+      "size": 234
     },
-    "1TI.json": {
+    "hin-4_1TI.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "eb63c3a1bd36b8b2db159e32d2e6e715"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 194500
+      "size": 113
     },
-    "2CO.json": {
+    "hin-4_2CO.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "339bd2ad082555b57b76d73c6878afb7"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 503497
+      "size": 538
     },
-    "2JN.json": {
+    "hin-4_2JN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "bab44353586e7a2e47fcd2f5a473d1c0"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 26473
+      "size": 233
     },
-    "2PE.json": {
+    "hin-4_2PE.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "dc9aeff82c268014d8f9a76c4b480e1c"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 130100
+      "size": 143
     },
-    "2TH.json": {
+    "hin-4_2TH.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "d6817145b4d7d3bb122602fc044bf51d"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 89792
+      "size": 377
     },
-    "2TI.json": {
+    "hin-4_2TI.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "2f7d249555b512268b628c00d63c9fc4"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 143939
+      "size": 839
     },
-    "3JN.json": {
+    "hin-4_3JN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "4dcfbb49bd87b93ca1eb8ad453c7a622"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 23547
+      "size": 243
     },
-    "ACT.json": {
+    "hin-4_ACT.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "30790311eb0affe5b92b33254020f4eb"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 1942272
+      "size": 957
     },
-    "COL.json": {
+    "hin-4_COL.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "4b7c602f1261ac40d40a9fc46d72bc1c"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 179623
+      "size": 343
     },
-    "EPH.json": {
+    "hin-4_EPH.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "12823bb8db4650d2f23e5827e84d968f"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 266186
+      "size": 453
     },
-    "GAL.json": {
+    "hin-4_GAL.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "8a01e5c7a04876b414c971cebc6829fa"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 262862
+      "size": 347
     },
-    "HEB.json": {
+    "hin-4_HEB.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "7c2a9f493a4afaec94dc0e893eed74b4"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 565444
+      "size": 787
     },
-    "JAS.json": {
+    "hin-4_JAS.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "463c6264ba9d10ea4cafa63ec1d8d8ca"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 199304
+      "size": 778
     },
-    "JHN.json": {
+    "hin-4_JHN.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "5927e229c4670b57a5cf2f0dc0fadc51"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 1563162
+      "size": 548
     },
-    "JUD.json": {
+    "hin-4_JUD.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "e14ba34930da5177b66a9cdb609dad3c"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 56025
+      "size": 433
     },
-    "LUK.json": {
+    "hin-4_LUK.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "8a0e88b573532c70e922518c577eebe9"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 1812654
+      "size": 987
     },
-    "MAT.json": {
+    "hin-4_MAT.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "001c75ef3e26c5160101e3118aaa50bb"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 1807247
+      "size": 1039
     },
-    "MRK.json": {
+    "hin-4_MRK.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "4c532e4662708e245ba00c5686b157e1"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 1164260
+      "size": 487
     },
-    "PHM.json": {
+    "hin-4_PHM.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "019c882f59b055056441140f184e1f56"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 38266
+      "size": 234
     },
-    "PHP.json": {
+    "hin-4_PHP.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "8f5d92eabd865518b25d77907f8304d2"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 189642
+      "size": 354
     },
-    "REV.json": {
+    "hin-4_REV.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "659bafcf688eed6d74b8c32a4c230be2"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 939650
+      "size": 544
     },
-    "ROM.json": {
+    "hin-4_ROM.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "012acc36529ed2019694a07fa81af29a"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 771826
+      "size": 543
     },
-    "TIT.json": {
+    "hin-4_TIT.json": {
       "mimeType": "application/json",
       "checksum": {
-        "md5": "87f00a47ec4f19d65095e1ad245c8273"
+        "md5": "0123456789abcdef0123456789abcdef"
       },
-      "size": 83984
+      "size": 127
     }
   }
 }
